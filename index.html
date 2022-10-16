@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>POMODORO TASKS</h1>
+    <div class="pomodoro-creator">
+        <form>
+            <input type="text" class="js-task-name" placeholder="Task name" required />
+            <select class="js-task-times" placeholder="times" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button type="submit">CREATE</button>
+        </form>
+    </div>
+    <table class="1">
+        <thead>
+           <tr>
+                <th>Task name</th>
+                <th>Status(done / planned)</th>
+                <th>Controls</th>
+            </tr> 
+        </thead>
+        <tbody class="js-task">
+            
+        </tbody>
+        
+    </table>
+</body>
+<script src="./main.js"></script>
+</html>

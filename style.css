@@ -1,0 +1,36 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+.pomodoro-creator{
+    border: 1px solid white;
+    padding: 40px 20px 40px 20px;
+    width: 400px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    outline: none;
+    margin-bottom: 20px;
+}
+
+table{
+    margin-top: 50px;
+    border: 1px solid white;
+}
+
+button{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    width: 150px;
+    padding: 10px 40px;
+    font-size: large;
+    font-weight: bold;
+}
